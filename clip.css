@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "custom";
+    src: url(font/JosefinSans-VariableFont_wght.ttf) format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'custom';
+}
+
+header{
+    text-align: center;
+    padding: 70px 10px 70px 10px;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header-picture{
+    padding-bottom: 30px;
+}
+
+.header-head-div{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.header-p-div{
+    padding-bottom: 20px;
+    color: rgb(180, 180, 180);
+}
+
+.header-second-div{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ios-button, .mac-button{
+    width: 80%;
+    margin-bottom: 20px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.ios-button{
+    background-color: rgb(50, 231, 129);
+    box-shadow: 2px 7px 11px 0px rgba(12, 192, 93, 0.29);
+}
+
+.mac-button{
+    background-color: dodgerblue;
+    box-shadow: 2px 7px 11px 0px rgba(94, 79, 233, 0.29);
+}
+
+.ios-button > a,
+.mac-button > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.keep-track-whole-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.keep-track-header{
+    padding: 20px 30px 20px 30px;
+}
+
+.keep-track-p{
+    padding: 20px 20px 20px 20px;
+    color: rgb(180, 180, 180);
+}
+
+.third-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.third-div-picture{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.third-div-section-1,
+.third-div-section-2,
+.third-div-section-3 {
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+}
+
+.third-div-section-1 > p,
+.third-div-section-2 > p,
+.third-div-section-3 > p {
+    color:  rgb(180, 180, 180);
+}
+
+.third-div-section-1 > h3,
+.third-div-section-2 > h3,
+.third-div-section-3 > h3 {
+    margin: 10px 0 10px 0;
+}
+
+.fourth-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.fourth-div > p {
+    padding: 20px 20px 20px 20px;
+    color:  rgb(180, 180, 180);
+}
+
+.fourth-div > img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.fifth-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifth-div-section-1 {
+    margin: 20px 0 100px 0;
+    padding: 0 20px 0 20px;
+}
+
+.fifth-div-section-1 > h1 {
+    margin: 10px 0 10px 0;
+}
+
+.fifth-div-section-1 > p {
+    color:  rgb(180, 180, 180);
+}
+
+.fifth-div-sub-section-1,
+.fifth-div-sub-section-2,
+.fifth-div-sub-section-3 {
+    margin: 0 0 50px 0;
+    padding: 0 20px 0 20px;
+}
+
+.fifth-div-sub-section-1 > h3,
+.fifth-div-sub-section-2 > h3,
+.fifth-div-sub-section-3 > h3 {
+    margin: 40px 0 20px 0;
+}
+
+.fifth-div-sub-section-1 > p,
+.fifth-div-sub-section-2 > p,
+.fifth-div-sub-section-3 > p {
+    color:  rgb(180, 180, 180);
+}
+
+.the-five-images-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.the-five-images{
+    margin: 25px 0 25px 0;
+}
+
+.sixth-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    margin: 0 0 100px 0;
+}
+
+.sixth-div > h1 {
+    margin: 20px 0 20px 0;
+}
+
+.sixth-div > p {
+    color:  rgb(180, 180, 180);
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+
+footer > img {
+    height: 50px;
+    width: 50px;
+    margin: 70px 0 30px 0;
+}
+
+.footer-list {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-list > a {
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    color:  rgb(134, 134, 134);
+}
+
+.icon-footer-div {
+    margin: 20px 0 20px 0;
+}
+
+.icon-footer-div > a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
