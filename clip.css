@@ -39,7 +39,8 @@ header{
     align-items: center;
 }
 
-.ios-button, .mac-button{
+.ios-button,
+.mac-button{
     width: 80%;
     margin-bottom: 20px;
     height: 50px;
@@ -243,4 +244,124 @@ footer > img {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 769px) {
+    header {
+        background-image: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        
+    }
+
+    .header-p-div {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .header-second-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ios-button,
+    .mac-button {
+        height: 40px;
+        width: 150px;
+        margin: 0 10px 0 10px;
+    }
+
+    .keep-track-p {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .third-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .third-div-picture {
+        width: 50%;
+        margin: 0 20px 0 10px;
+    }
+
+    .third-div-all-section {
+        margin: 0 0 0 20px;
+    }
+
+    .third-div-section-1,
+    .third-div-section-2,
+    .third-div-section-3 {
+        text-align: left;
+        width: 300px
+    }
+
+    .three-imgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fourth-div > p {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .fifth-div-section-2 {
+        width: 100%;
+    }
+
+    .fifth-div-sub-section-1,
+    .fifth-div-sub-section-2,
+    .fifth-div-sub-section-3 {
+        width: 20%;
+    }
+
+    .the-five-images-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0 70px 0;
+    }
+
+    .the-five-images {
+        margin: 0 20px 0 20px;
+        width: 100px;
+    }
+
+    .sixth-div > p {
+        width: 568px;
+        margin: 0 auto;
+    }
+
+    .buttom-button {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-list {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 50px 50px;
+        text-align: left;
+    }
+
+    footer > img {
+        margin-left: 100px;
+        align-items: center;
+        margin: 0 10px 0 80px;
+    }
+
+    .icon-footer-div {
+        margin-right: 50px;
+    }
 }
