@@ -246,7 +246,7 @@ footer > img {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 769px) {
+@media (min-width: 767px) {
     header {
         background-image: url(images/bg-header-desktop.png);
         background-repeat: no-repeat;
